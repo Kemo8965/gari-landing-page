@@ -1,5 +1,5 @@
 import React, { Fragment } from "react";
-import { AboutGari, GariServices, Hero } from "./components";
+import { Hero } from "./components";
 
 export const App: React.FC = () => {
     return (
