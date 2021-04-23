@@ -1,0 +1,6 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.teal {
+    color: '#04a49c';
+}
