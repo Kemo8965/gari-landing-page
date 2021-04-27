@@ -11,19 +11,24 @@ import {
   Route
 } from "react-router-dom";
 import TermsOfService from './pages/TermsOfService';
+import PolicyFAQs from './components/FAQs/PolicyFAQs';
+import About from './pages/About';
 
 function App() {
 
   return (
     <div className="App">     
-    <Router>
+    <Router >
      
          <Switch>
          <Route path="/" exact component={Header}/>
          
-         <Route path="/TermsOfService" component={TermsOfService}/>
+         <Route path="/TermsOfService" exact component={TermsOfService}/>
 
          <Route path="/Contact" component={Form}/>
+
+         <Route path="/FAQs" component={PolicyFAQs}/>
+         <Route path="/About" component={About}/>
 
         
          </Switch>
@@ -41,7 +46,7 @@ function App() {
                           transitionDelay: '.5s'}} showUnder={165}>
            <span >
              <svg xmlns="http://www.w3.org/2000/svg"
-              className="h-7 w-7 text-green-300" 
+              className="h-8 w-8 text-green-300" 
               viewBox="0 0 20 20"
                fill="currentColor">
           <path fill-rule="evenodd"

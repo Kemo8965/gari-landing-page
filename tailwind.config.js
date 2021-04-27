@@ -8,6 +8,21 @@ module.exports = {
                 gari: "#04a49c",
                 gariLight: "#3CBFB7"
 
+            },
+            height: {
+                100: 600,
+                200: 900,
+                300: 1000
+            },
+            toggle: {
+                toggleable: {
+                    content: "25BC",
+                    fontSize: "10px",
+                    paddingLeft: "6px",
+                    position: " relative",
+                    top: "-1px"
+                }
+
             }
         },
 

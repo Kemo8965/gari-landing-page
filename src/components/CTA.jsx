@@ -18,7 +18,7 @@ const CTA = () => {
                       >
                         <img
                           
-                          className="h-12 w-full  sm:h-10 md:h-12 lg:w-40 lg:h-38"
+                          className="h-10 w-full  sm:h-10 md:h-12 lg:w-40 lg:h-38"
                           src={process.env.PUBLIC_URL + '/assets/google-2.svg'}
                           alt=""
                          /> 
@@ -32,7 +32,7 @@ const CTA = () => {
                       >
                         <img
                           
-                          className="h-12 w-full  sm:h-10 md:h-12 lg:w-40 lg:h-38"
+                          className="h-10 w-full  sm:h-10 md:h-12 lg:w-40 lg:h-38"
                           src={process.env.PUBLIC_URL + '/assets/app-store.svg'}
                           alt=""
                          /> 

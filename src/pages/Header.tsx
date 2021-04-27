@@ -7,11 +7,17 @@ import TermsOfService from './TermsOfService'
 import NewFeatures from './NewFeatures';
 import CTA from '../components/CTA';
 import {BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import Steps from '../components/Steps';
+import Section from '../components/Section'
+import Collapse from '../components/Collapse';
+import PolicyFAQs from '../components/FAQs/PolicyFAQs';
+import ClaimsFAQs from '../components/FAQs/ClaimsFAQs';
+import GariFAQs from '../components/FAQs/GariFAQs';
 
 const navigation = [
 
   { name: 'Terms Of Service', href:'/TermsOfService' },
-  { name: '', href: '#' },
+  { name: '', href: '/Contact' },
  
 ]
 
@@ -64,9 +70,7 @@ export default function Header() {
                         
                       </a>
                     ))}
-                   <Link to="/Contact" className="block mt-4 lg:inline-block lg:mt-0 text-gari hover:text-indigo-500">
-                    Contact
-                    </Link>
+                   
 
                     
       
@@ -119,6 +123,8 @@ export default function Header() {
                           {item.name}
                         </a>
                       ))}
+
+                      <a href="/Contact" className="text-gari">Contact</a>
                     </div>
                     <button
                 
@@ -131,15 +137,15 @@ export default function Header() {
               </Transition>
                 
               <main className="mt-10 mx-auto max-w-7xl px-4 sm:mt-12 sm:px-6 md:mt-16 lg:mt-20 lg:px-8 xl:mt-28">
-                <div className="sm:text-center lg:text-left">
-                  <h1 className="text-4xl tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
+                <div className="text-center lg:text-left">
+                  <h1 className="text-4xl lg:pb-0 pb-8 tracking-tight font-extrabold text-gray-900 sm:text-5xl md:text-6xl">
                     <span className="block xl:inline">Get Insured in minutes with</span>{' '}
                     <span className="block text-gariLight xl:inline">gari</span>
                   </h1>
-                  <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
+                  <p className="mt-3 lg:pb-0 pb-12 text-base text-gray-500 sm:mt-5 sm:text-lg sm:max-w-xl sm:mx-auto md:mt-5 md:text-xl lg:mx-0">
                   Simple, affordable policies from all the top Insurance Companies.
                   </p>
-                  <div className="mt-5 sm:mt-8 sm:inline-flex sm:justify-center lg:justify-start">
+                  <div className="mt-5 sm:mt-8 flex  sm:flex sm:justify-center lg:justify-start">
                     
                       <a
                         href="#"
@@ -148,7 +154,7 @@ export default function Header() {
                       >
                         <img
                           
-                          className="h-12 w-full  sm:h-10 md:h-12 lg:w-40 lg:h-38 "
+                          className="h-10 w-full  sm:h-10 md:h-12 lg:w-40 lg:h-38 "
                           src={process.env.PUBLIC_URL + '/assets/google-2.svg'}
                           alt=""
                          /> 
@@ -161,7 +167,7 @@ export default function Header() {
                       >
                         <img
                           
-                          className="h-12 w-full  sm:h-10 md:h-12 lg:w-40 lg:h-38"
+                          className="h-10 w-full  sm:h-10 md:h-12 lg:w-40 lg:h-38"
                           src={process.env.PUBLIC_URL + '/assets/app-store.svg'}
                           alt=""
                          /> 
@@ -176,10 +182,10 @@ export default function Header() {
               </main>
             </div>
           </div>
-          <div className=" md:visible invisible lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
+          <div className=" lg:visible invisible lg:flex hidden lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2">
             <img
-              className="h-50 w-full object-cover h-6 md:h-96 lg:w-90 lg:h-full "
-              src={process.env.PUBLIC_URL + '/assets/hero4.jpg'}
+              className="h-50 lg:mr-28 w-full object-cover h-6 md:h-96 lg:w-90 lg:h-full "
+              src={process.env.PUBLIC_URL + '/assets/hero9.jpg'}
               alt=""
             />
           </div>
@@ -187,10 +193,15 @@ export default function Header() {
       )}
     </Popover>
      <div className="pt-24">
+       <Steps/>
      <NewFeatures/>
+     <Section/>
      </div>
-    
+    <PolicyFAQs/>
+    <ClaimsFAQs/>
+    <GariFAQs/>
     <CTA/>
+  
     </div>
   )
 }

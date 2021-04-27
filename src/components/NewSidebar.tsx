@@ -27,6 +27,8 @@ const NewSidebar = () => {
                 }
                 id="example-navbar-danger"
               >
+
+
                 <ul className="flex flex-col lg:flex-row list-none lg:ml-auto ">
                   <li className="nav-item">
                     <Link
@@ -54,6 +56,8 @@ const NewSidebar = () => {
                       <i className="fab fa-twitter text-lg leading-lg text-gari opacity-75"></i><span className="ml-2">Contact</span>
                     </Link>
                   </li>
+                  
+
 
                 </ul>
               </div>
