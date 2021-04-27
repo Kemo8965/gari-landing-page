@@ -6,6 +6,8 @@ const FAQ3 = () => {
     const { getCollapseProps, getToggleProps } = useCollapse({ isExpanded });
     return (
         <div>
+
+<div className="mb-2  title-font  font-medium title-font text-xl tracking-wider">
              <div className="font-medium rounded-sm text-lg px-2 py-3 flex text-gray-800 flex-row-reverse mt-2 cursor-pointer bg-white hover:bg-white">
                                 <div className="flex-auto text-gari">I forgot my login details, what should I do?
 
@@ -27,6 +29,8 @@ const FAQ3 = () => {
                                     </div>
                                 </div>
                             </div>
+
+                    </div>
         </div>
     )
 }

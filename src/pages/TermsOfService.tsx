@@ -5,7 +5,7 @@ import NewSidebar from '../components/NewSidebar';
 
 const TermsOfService = () => {
     return (
-     <div>
+     <div className="text-base font-medium tracking-wider">
 
          <NewSidebar/>
           

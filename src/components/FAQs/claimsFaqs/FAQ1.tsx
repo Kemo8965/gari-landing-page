@@ -8,7 +8,7 @@ const Collapse = () => {
     return (
         <div>
         
-            <div className="mb-2">
+            <div className="mb-2  title-font  font-medium title-font text-xl tracking-wider">
                             <div className="font-medium rounded-sm text-lg px-2 py-3 flex text-gray-800 flex-row-reverse mt-2 cursor-pointer bg-white hover:bg-white">
                                 <div className="flex-auto text-gari">What documentation is needed when filing a claim?
 
@@ -20,7 +20,7 @@ const Collapse = () => {
                                         {isExpanded ? '-' : '+'}
                                     </button>
       
-                                      <section className="text-gray-800" {...getCollapseProps()}>There are a couple of important information we will need when filing a claim but the most important, is photos. If possible, take as many photos as possible of the accident scene for uploading later. Additionally, you will be required to upload a copy of police abstract, names and contacts of passengers, names and contacts
+                                      <section className="text-gray-800 leading-relaxed" {...getCollapseProps()}>There are a couple of important information we will need when filing a claim but the most important, is photos. If possible, take as many photos as possible of the accident scene for uploading later. Additionally, you will be required to upload a copy of police abstract, names and contacts of passengers, names and contacts
                                        of other motorists involved in the accident and names and contacts of witnesses at the time of the accident.</section> 
                                       </div>
                                 <div className="px-2 mt-1">

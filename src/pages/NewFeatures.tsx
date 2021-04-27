@@ -5,7 +5,7 @@ const NewFeatures = () => {
     return (
       <div>
 
-        <div className="text-center text-2xl lg:text-5xl font-bold lg:pb-5 text-gari">
+        <div className="  title-font  font-bold title-font  mb-2 tracking-wider text-center text-2xl lg:text-5xl  lg:pb-5 text-gari">
           <h1>Benefits you get with gari</h1>
         </div>
           <section className="text-gray-600 body-font">
@@ -20,8 +20,8 @@ const NewFeatures = () => {
             />
       </div>
       <div className="flex-grow sm:text-left text-xl  text-center mt-6 sm:mt-0">
-        <h2 className="text-gray-900 text-xl title-font font-medium mb-2"> Get insurance from the comfort of your home with the app.</h2>
-        <p className="leading-relaxed  text-base">No need to queue up, simply get it with app.</p>
+        <h2 className=" title-font  font-medium title-font text-xl text-gray-900 mb-2 tracking-wider"> Get insurance from the comfort of your home with the app.</h2>
+        <p className="leading-relaxed ">No need to queue up, simply get it with the app.</p>
         <a className="mt-3 text-indigo-500 inline-flex items-center">
 
         </a>
@@ -29,8 +29,8 @@ const NewFeatures = () => {
     </div>
     <div className="flex items-center lg:w-3/5 mx-auto border-b pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
       <div className="flex-grow sm:text-left text-xl  text-center mt-6 sm:mt-0">
-        <h2 className="text-gray-900 text-xl title-font font-medium mb-2">  Get a quote in seconds.</h2>
-        <p className="leading-relaxed  text-base">Get to know your price in seconds, answer a few questions and 
+        <h2 className=" title-font  font-medium title-font text-xl text-gray-900 mb-2 tracking-wider">  Get a quote in seconds.</h2>
+        <p className="leading-relaxed ">Get to know your price in seconds, answer a few questions and 
              you are good to go! No irrelevant questions, 
              no paper work and no long phone calls!</p>
         <a className="mt-3 text-indigo-500 inline-flex items-center">
@@ -54,8 +54,8 @@ const NewFeatures = () => {
             />
       </div>
       <div className="flex-grow sm:text-left text-xl  text-center mt-6 sm:mt-0">
-        <h2 className="text-gray-900 text-xl title-font font-medium mb-2">Save on time and money.</h2>
-        <p className="leading-relaxed text-base"> With the ability to purchase insurance and road tax using the app, no need to queue up at offices.</p>
+        <h2 className=" title-font  font-medium title-font text-xl text-gray-900 mb-2 tracking-wider">Save on time and money.</h2>
+        <p className="leading-relaxed"> With the ability to purchase insurance and road tax using the app, no need to queue up at offices.</p>
         <a className="mt-3 text-indigo-500 inline-flex items-center">
         
         </a>
@@ -63,8 +63,8 @@ const NewFeatures = () => {
     </div>
     <div className="flex items-center lg:w-3/5 mx-auto border-b mt-10 pb-10 mb-10 border-gray-200 sm:flex-row flex-col">
       <div className="flex-grow sm:text-left text-xl  text-center mt-6 sm:mt-0">
-        <h2 className="text-gray-900 text-xl title-font font-medium mb-2">  24/7 Customer Support.</h2>
-        <p className="leading-relaxed text-base">Our dedicated team works 24/7 to assist customers
+        <h2 className=" title-font  font-medium title-font text-xl text-gray-900 mb-2 tracking-wider">  24/7 Customer Support.</h2>
+        <p className="leading-relaxed">Our dedicated team works 24/7 to assist customers
          in an emergency by using the latest 
          technologies to deliver fast rescue in real time.</p>
         <a className="mt-3 text-indigo-500 inline-flex items-center">

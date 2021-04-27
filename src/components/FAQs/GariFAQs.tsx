@@ -21,10 +21,10 @@ const GariFAQs = () => {
     <div className="mx-auto max-w-6xl">
         <div className="p-2 bg-gray-100 rounded">
             <div className="flex flex-col md:flex-row">
-                <div className="md:w-1/3 p-4 text-sm">
+                <div className="md:w-1/3 p-4  title-font  font-medium title-font text-xl text-gray-900 mb-2 tracking-wider">
                     <div className="text-3xl">FAQs about <span className="font-medium">Gari</span></div>
                     <div className="my-2">Wondering how gari works ?</div>
-                    <div className="text-xs text-gray-600">Dive into our FAQ for more details</div>
+                   
                 </div>
                 <div className="md:w-2/3 ">
                     <div className="p-4">

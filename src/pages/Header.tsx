@@ -17,7 +17,7 @@ import GariFAQs from '../components/FAQs/GariFAQs';
 const navigation = [
 
   { name: 'Terms Of Service', href:'/TermsOfService' },
-  { name: '', href: '/Contact' },
+  { name: 'Contact', href: '/Contact' },
  
 ]
 
@@ -124,7 +124,7 @@ export default function Header() {
                         </a>
                       ))}
 
-                      <a href="/Contact" className="text-gari">Contact</a>
+                      
                     </div>
                     <button
                 

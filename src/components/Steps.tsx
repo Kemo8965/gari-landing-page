@@ -1,5 +1,5 @@
 import React from 'react'
-import { Parallax} from 'react-parallax'
+import { Parallax } from 'react-parallax'
 
 const Steps = () => {
     const img1=`${process.env.PUBLIC_URL + '/assets/steps.jpg'}`

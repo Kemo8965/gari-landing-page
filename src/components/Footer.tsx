@@ -13,9 +13,37 @@ const Footer = () => {
 
 <div>
 <footer className="bg-gari body-font">
-  <div className="container px-5 py-8 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
+  <div className="container px-5 py-20 mx-auto flex md:items-center lg:items-start md:flex-row md:flex-nowrap flex-wrap flex-col">
     
     <div className="text-white flex-grow flex flex-wrap md:pl-20 -mb-10 md:mt-0 mt-10 md:text-left text-center">
+
+      
+      <div className="w-full md:w-1/2 lg:w-1/4  ">
+        <h2 className="title-font font-medium text-gray-900 tracking-widest text-md mb-3">Resources</h2>
+        <nav className="list-none mb-10">
+        
+        <li><a href="/Contact"  className="text-white hover:text-gray-800">Contact</a></li>
+          
+          <p className="nav-item pr-10  hover:text-green-300 ">
+               <a href="/TermsOfService" > Terms Of Service</a>
+            </p>
+          
+        </nav>
+      </div>
+
+      
+      <div className="w-full md:w-1/2 lg:w-1/4  ">
+        <h2 className="title-font font-medium text-gray-900 tracking-widest text-md mb-3">Resources</h2>
+        <nav className="list-none mb-10">
+        
+        <li><a href="/Contact"  className="text-white hover:text-gray-800">Contact</a></li>
+          
+          <p className="nav-item pr-10  hover:text-green-300 ">
+               <a href="/TermsOfService" > Terms Of Service</a>
+            </p>
+          
+        </nav>
+      </div>
 
       
       <div className="w-full md:w-1/2 lg:w-1/4  ">
