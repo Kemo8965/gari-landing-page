@@ -8,7 +8,7 @@ const PrivacyPolicy = () => {
     <div >
       <NewSidebar />
 
-      <div className="flex justify-center lg:py-16">
+      <div className="flex justify-center lg:py-20">
         <div className="prose lg:prose-md p-16  shadow-2xl">
           <div>
             <h1 className="text-gari">Privacy Policy</h1>

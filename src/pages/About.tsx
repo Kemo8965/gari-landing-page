@@ -7,7 +7,7 @@ const About = () => {
         <div>
       <NewSidebar />
 
-      <div className="flex justify-center py-6">
+      <div className="flex justify-center py-20">
         <div className="prose lg:prose-lg p-16 shadow-2xl">
           <div>
         

@@ -4,7 +4,7 @@ import React from "react";
 const NewFeatures = () => {
   return (
     <div>
-      <div className="title-font text-center font-bold title-font lg:text-center text-2xl lg:text-5xl text-gari">
+      <div className="title-font lg:pl-48 text-center font-bold title-font lg:text-center text-2xl lg:text-5xl text-gari">
         <h1>Benefits you get with gari</h1>
       </div>
       <section className="text-gray-600 body-font p-7 ">

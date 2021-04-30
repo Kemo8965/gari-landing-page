@@ -54,7 +54,7 @@ export default function Header() {
                     <div className="flex items-center justify-between w-full md:w-auto">
                       <a className="pt-10" href="/">
                         <span className="sr-only">Workflow</span>
-                        <img className="w-20  h-20 object-cover rounded-full border-2 border-gari" src={process.env.PUBLIC_URL + '/assets/gari.jpeg'} alt="logo"/>
+                        <img className="w-20  h-20 object-contain rounded-full border-2 border-gari" src={process.env.PUBLIC_URL + '/assets/gari-logo.png'} alt="logo"/>
                       </a>
                       <div className="-mr-2 flex items-center md:hidden">
                         <Popover.Button className="bg-white rounded-md p-2 inline-flex items-center justify-center text-gari hover:text-gray-500 hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-inset focus:ring-indigo-500">
@@ -104,7 +104,7 @@ export default function Header() {
                       <div>
                         <img
                           className="h-10 w-auto"
-                          src={process.env.PUBLIC_URL + '/assets/gari.jpeg'} alt="logo"
+                          src={process.env.PUBLIC_URL + '/assets/gari-logo.png'} alt="logo"
                           
                         />
                       </div>

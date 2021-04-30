@@ -9,7 +9,7 @@ const NewSidebar = () => {
             <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
               <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
               <div className="flex items-center flex-shrink-0 text-white mr-6">
-               <a href="/"><img className="w-20 h-20 object-contain rounded-full border-2 border-gray-200" src={process.env.PUBLIC_URL + '/assets/gari-logo.png'} alt="logo"/></a> 
+               <a href="/"><img className="w-20 h-20 object-contain rounded-full border-2 border-gari" src={process.env.PUBLIC_URL + '/assets/gari-logo.png'} alt="logo"/></a> 
                  <span className="font-medium text-xl tracking-tight"></span>
              </div>
                 <button
