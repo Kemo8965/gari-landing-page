@@ -10,6 +10,7 @@
         "@fortawesome/react-fontawesome": "^0.1.14",
         "@headlessui/react": "^1.0.0",
         "@heroicons/react": "^1.0.1",
+        "@tailwindcss/typography": "^0.4.0",
         "cra-template-typescript": "1.1.2",
         "infinite-react-carousel": "^1.2.11",
         "react": "^17.0.2",

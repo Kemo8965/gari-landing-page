@@ -1,9 +1,14 @@
+const defaultTheme = require('tailwindcss/defaultTheme');
+
 module.exports = {
     purge: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'],
     darkMode: false, // or 'media' or 'class'
     theme: {
 
         extend: {
+            fontFamily: {
+                sans: ['Inter var', ...defaultTheme.fontFamily.sans]
+            },
             colors: {
                 gari: "#04a49c",
                 gariLight: "#3CBFB7"
@@ -11,6 +16,7 @@ module.exports = {
             },
             height: {
                 100: 600,
+                150: 800,
                 200: 900,
                 300: 1000
             },
@@ -30,5 +36,7 @@ module.exports = {
     variants: {
         extend: {},
     },
-    plugins: [],
+    plugins: [
+        require('@tailwindcss/typography')
+    ],
 }

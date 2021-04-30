@@ -7,7 +7,7 @@ const FAQ4 = () => {
     return (
         <div>
 
-<div className="mb-2  title-font  font-medium title-font text-xl tracking-wider">
+<div className="mb-2  title-font  font-medium title-font text-xl ">
             <div className="font-medium rounded-sm text-lg px-2 py-3 flex text-gray-800 flex-row-reverse mt-2 cursor-pointer bg-white hover:bg-white">
                                 <div className="flex-auto text-gari">Which payment methods does the App have for payment?
                                 
@@ -19,7 +19,7 @@ const FAQ4 = () => {
                                         {isExpanded ? '-' : '+'}
                                     </button>
       
-                                      <section className="text-gray-600 py-3 mt-3 text-md" {...getCollapseProps()}>When paying for your premium, there are several convenient payment methods on the App you can choose from. You can either pay through Mobile money or Card payment.</section> 
+                                      <section className="text-gray-800 py-3 mt-3 text-md" {...getCollapseProps()}>When paying for your premium, there are several convenient payment methods on the App you can choose from. You can either pay through Mobile money or Card payment.</section> 
                                 
                                 </div>
                                 <div className="px-2 mt-1">

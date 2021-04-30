@@ -5,11 +5,11 @@ const NewSidebar = () => {
     const [navbarOpen, setNavbarOpen] = React.useState(false);
     return (
         <>
-          <nav className="relative flex flex-wrap items-center justify-between px-2 py-3 bg-white mb-3 text-base font-medium tracking-wider">
+          <nav className="relative flex flex-wrap items-center justify-between px-2 pt-3 bg-white mb-3 text-base font-medium tracking-wider">
             <div className="container px-4 mx-auto flex flex-wrap items-center justify-between">
               <div className="w-full relative flex justify-between lg:w-auto lg:static lg:block lg:justify-start">
               <div className="flex items-center flex-shrink-0 text-white mr-6">
-                <img className="w-20 h-20 object-contain rounded-full border-2 border-gray-200" src={process.env.PUBLIC_URL + '/assets/gari.jpeg'} alt="logo"/>
+               <a href="/"><img className="w-20 h-20 object-contain rounded-full border-2 border-gray-200" src={process.env.PUBLIC_URL + '/assets/gari-logo.png'} alt="logo"/></a> 
                  <span className="font-medium text-xl tracking-tight"></span>
              </div>
                 <button
@@ -17,7 +17,7 @@ const NewSidebar = () => {
                   type="button"
                   onClick={() => setNavbarOpen(!navbarOpen)}
                 >
-                 <MenuIcon className="h-6 w-6 text-black" aria-hidden="true" />
+                 <MenuIcon className="h-6 w-6 text-gari" aria-hidden="true" />
                 </button>
               </div>
               <div
@@ -42,20 +42,22 @@ const NewSidebar = () => {
                   <li className="nav-item">
                     <Link
                       className="px-3 py-2 flex items-center text-md none font-semi-bold leading-snug text-gari hover:opacity-75"
-                      to="/TermsOfService"
+                      to="/about"
                     >
-                      <i className="fab fa-pinterest text-lg leading-lg text-gari opacity-75"></i><span className="ml-2">Terms Of Service</span>
+                      <i className="fab fa-facebook-square font-semibold text-lg leading-lg text-gari opacity-75"></i><span className="ml-2">About</span>
                     </Link>
                   </li>
 
                   <li className="nav-item">
                     <Link
                       className="px-3 py-2 flex items-center text-md none font-semi-bold leading-snug text-gari hover:opacity-75"
-                      to="/Contact"
+                      to="/terms-of-service"
                     >
-                      <i className="fab fa-twitter text-lg leading-lg text-gari opacity-75"></i><span className="ml-2">Contact</span>
+                      <i className="fab fa-pinterest text-lg leading-lg text-gari opacity-75"></i><span className="ml-2">Terms Of Service</span>
                     </Link>
                   </li>
+
+              
                   
 
 

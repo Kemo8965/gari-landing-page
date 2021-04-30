@@ -3,7 +3,7 @@ import React, { useState } from 'react';
 
 import FAQ1 from './gariFaqs/FAQ1'
 import FAQ2 from './gariFaqs/FAQ2'
-import FAQ3 from './gariFaqs/FAQ1'
+import FAQ3 from './gariFaqs/FAQ3'
 import FAQ4 from './gariFaqs/FAQ4'
 
 
@@ -21,9 +21,9 @@ const GariFAQs = () => {
     <div className="mx-auto max-w-6xl">
         <div className="p-2 bg-gray-100 rounded">
             <div className="flex flex-col md:flex-row">
-                <div className="md:w-1/3 p-4  title-font  font-medium title-font text-xl text-gray-900 mb-2 tracking-wider">
+                <div className="md:w-1/3 p-4  title-font  font-medium title-font text-lg text-gray-900 mb-2">
                     <div className="text-3xl">FAQs about <span className="font-medium">Gari</span></div>
-                    <div className="my-2">Wondering how gari works ?</div>
+                    <div className="my-2">Wondering how gari works?</div>
                    
                 </div>
                 <div className="md:w-2/3 ">

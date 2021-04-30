@@ -7,7 +7,7 @@ const FAQ4 = () => {
     return (
         <div>
 
-                    <div className="mb-2  title-font  font-medium title-font text-xl tracking-wider">
+                    <div className="mb-2  title-font  font-medium title-font text-xl ">
                                 <div className="font-medium rounded-sm text-lg px-2 py-3 flex text-gray-800 flex-row-reverse mt-2 cursor-pointer bg-white hover:bg-white">
                                 <div className="flex-auto text-gari">Can I transfer the insurance cover when I sell my car?
                                 
@@ -19,7 +19,7 @@ const FAQ4 = () => {
                                         {isExpanded ? '-' : '+'}
                                     </button>
       
-                                      <section className="text-gray-600 leading-relaxed" {...getCollapseProps()}>Unfortunately, this won't be possible as insurance policies are not transferable. You will need to cancel the policy through the App under the policy page and return the insurance certificate back to us. Upon returning the certificate, we will refund a portion of your premium if you have not made any claim at the time of cancellation and if your policy has not lasted more than 6 months.</section> 
+                                      <section className="text-gray-800 leading-relaxed" {...getCollapseProps()}>Unfortunately, this won't be possible as insurance policies are not transferable. You will need to cancel the policy through the App under the policy page and return the insurance certificate back to us. Upon returning the certificate, we will refund a portion of your premium if you have not made any claim at the time of cancellation and if your policy has not lasted more than 6 months.</section> 
                                 
                                 </div>
                                 <div className="px-2 mt-1">

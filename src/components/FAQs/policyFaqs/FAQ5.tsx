@@ -17,7 +17,7 @@ const FAQ5 = () => {
                                         {isExpanded ? '-' : '+'}
                                     </button>
       
-                                      <section className="text-gray-600 py-3 mt-3 text-md" {...getCollapseProps()}>Special perils mean natural causes like heavy floods, rain storms, earthquakes, hurricanes, lightning etc. So, any loss or damages to your car caused by these occurrences whether directly or indirectly will be covered.</section> 
+                                      <section className="text-gray-800 py-3 mt-3 text-md" {...getCollapseProps()}>Special perils mean natural causes like heavy floods, rain storms, earthquakes, hurricanes, lightning etc. So, any loss or damages to your car caused by these occurrences whether directly or indirectly will be covered.</section> 
                                 
                                 </div>
                                 <div className="px-2 mt-1">

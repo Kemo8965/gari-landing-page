@@ -21,9 +21,9 @@ const PolicyFAQs = () => {
     <div className="mx-auto max-w-6xl">
         <div className="p-2 bg-gray-100 rounded">
             <div className="flex flex-col md:flex-row">
-                <div className="md:w-1/3 p-4  title-font  font-medium title-font text-xl text-gray-900 mb-2 tracking-wider">
+                <div className="md:w-1/3 p-4  title-font  font-medium title-font text-lg text-gray-900 mb-2">
                     <div className="text-3xl">FAQs about your <span className="font-medium">Policy</span></div>
-                    <div className="my-2">Wondering how policies work with the app ?</div>
+                    <div className="my-2">Wondering how policies work with the app?</div>
                    
                    
                 </div>

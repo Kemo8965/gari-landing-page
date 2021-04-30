@@ -11,8 +11,8 @@ const Steps = () => {
 
     <div className="flex flex-wrap w-full">
         
-      <div className="text-lg lg:w-2/5 md:w-1/2 md:pr-10 md:py-6">
-      <h2 className=" pb-20 lg:text-5xl text-3xl pl-5 font-bold text-gari">Get Insured within 10 minutes</h2>
+      <div className="text-lg lg:w-1/2 md:w-1/2 md:pr-10 md:py-6">
+      <h2 className=" pb-20 lg:text-5xl text-3xl pl-0 font-bold text-gari">Get Insured within 10 minutes</h2>
         <div className="flex relative pb-12">
             
           <div className="h-full w-10 absolute inset-0 flex items-center justify-center">
@@ -78,7 +78,7 @@ const Steps = () => {
 
         
       </div>
-      <Parallax className="lg:order-last order-first lg:w-3/5 md:w-1/2 object-cover lg:h-200 object-center rounded-lg md:mt-0 mt-12" bgImage={img1}>
+      <Parallax className="lg:order-last order-first lg:w-1/2  object-cover lg:h-200 object-center rounded-lg md:mt-0 mt-12" bgImage={img1}>
         
         </Parallax>
      

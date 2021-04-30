@@ -11,24 +11,28 @@ import {
   Route
 } from "react-router-dom";
 import TermsOfService from './pages/TermsOfService';
-import PolicyFAQs from './components/FAQs/PolicyFAQs';
+
 import About from './pages/About';
+import FAQs from './pages/FAQs';
+import PrivacyPolicy from './pages/PrivacyPolicy';
 
 function App() {
 
   return (
-    <div className="App">     
+    <div className="App ">     
     <Router >
      
          <Switch>
          <Route path="/" exact component={Header}/>
          
-         <Route path="/TermsOfService" exact component={TermsOfService}/>
+         <Route path="/terms-of-service" exact component={TermsOfService}/>
 
-         <Route path="/Contact" component={Form}/>
+         <Route path="/contact" component={Form}/>
 
-         <Route path="/FAQs" component={PolicyFAQs}/>
-         <Route path="/About" component={About}/>
+    
+         <Route path="/about" component={About}/>
+         <Route path="/faqs" component={FAQs}/>
+         <Route path="/privacy-policy" component={PrivacyPolicy}/>
 
         
          </Switch>
